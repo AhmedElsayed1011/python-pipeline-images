@@ -155,5 +155,5 @@ sudo docker-compose exec jenkins cat /var/jenkins_home/secrets/initialAdminPassw
 
 ## Destroy the jenkins server
 ```sh
-terraform destroy
+make destroy
 ```
